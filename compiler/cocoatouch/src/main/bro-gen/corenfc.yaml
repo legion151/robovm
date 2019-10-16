@@ -214,6 +214,8 @@ protocols:
                 name: didInvalidate
             '-tagReaderSession:didDetectTags:':
                 name: didDetectTags
+            '-tagReaderSessionDidBecomeActive:':
+                name: tagReaderSessionDidBecomeActive
     NFCVASReaderSessionDelegate: #since 13.0
         methods:
             '-readerSession:didInvalidateWithError:':
