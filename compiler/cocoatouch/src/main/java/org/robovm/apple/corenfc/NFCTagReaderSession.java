@@ -77,6 +77,6 @@ import org.robovm.apple.dispatch.*;
      * @since Available in iOS 13.0 and later.
      */
     @Method(selector = "connectToTag:completionHandler:")
-    public native void connectToTag(NFCTag tag, @Block VoidBlock1<NSError> completionHandler);
+    public native void connectToTag(NSObject tag, @Block VoidBlock1<NSError> completionHandler);
     /*</methods>*/
 }
